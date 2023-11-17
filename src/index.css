@@ -74,28 +74,120 @@ code {
 
 .imgCareer {
   position: absolute;
+  height: 100%;
   width: 100%;
 }
 
+
 .imgTranferHistory {
-  display: flex;
-  justify-content: center;
-   align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 5%;
 }
 
 .imgAndorinha {
+  position: absolute;
   height: 7;
   width: 90px;
-  position: absolute;
-  top: 197px;
-  left: 40px;
+  top: 260px;
+  left: 96px;
+  opacity: 0;
+}
+
+.imgAndorinha:hover {
+  opacity: 100;
 }
 
 .imgNacional{
-  height: 7;
-  width: 90px;
   position: absolute;
-  top: 437px;
-  left: 142px;
+  height: 8;
+  width: 95px;
+  top: 518px;
+  left: 195px;
+  opacity: 0;
 }
 
+.imgNacional:hover {
+  opacity: 100;
+}
+
+
+.imgSporting {
+  position: absolute;
+  height: 6;
+  width: 80px;
+  top: 276px;
+  left: 313px;
+  opacity: 0;
+}
+
+.imgSporting:hover {
+  opacity: 100;
+}
+
+
+.imgManUnited {
+  position: absolute;
+  height: 8;
+  width: 95px;
+  left: 435px;
+  top: 515px;
+  opacity: 0;
+}
+
+.imgManUnited:hover {
+  opacity: 100;
+}
+
+.imgRealMadrid {
+  position: absolute;
+  height: 10;
+  width: 120px;
+  top: 265px;
+  left: 663px;
+  opacity: 0;
+}
+
+.imgRealMadrid:hover {
+  opacity: 100;
+}
+
+
+.imgJuventus {
+  position: absolute;
+  height: 7;
+  width: 65px;
+  top: 282px;
+  left: 1172px;
+  opacity: 0;
+}
+
+.imgJuventus:hover {
+  opacity: 100;
+}
+
+.imgManUnited2 {
+  position: absolute;
+  height: 8;
+  width: 95px;
+  left: 1325px;
+  top: 515px;
+  opacity: 0;
+}
+
+.imgManUnited2:hover {
+  opacity: 100;
+}
+
+.imgAlNassr {
+  position: absolute;
+  height: 10;
+  width: 90px;
+  top: 270px;
+  left: 1482px;
+  opacity: 0;
+}
+
+.imgAlNassr:hover {
+  opacity: 100;
+}
