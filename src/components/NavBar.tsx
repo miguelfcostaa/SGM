@@ -10,7 +10,7 @@ import { styled, alpha } from '@mui/material/styles';
 import InputBase from '@mui/material/InputBase';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
-const pages = ['Home','Profile','Career','Videos','Photos'];
+const pages = ['Home','Biography','Career','Videos','Photos'];
 
 
 const theme = createTheme({
