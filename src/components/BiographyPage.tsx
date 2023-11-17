@@ -1,8 +1,13 @@
 import React from 'react';
+import NavBar from './NavBar';
 
 const BiographyPage = () => {
     return (
-        <span>Biography</span>
+        <>
+            <NavBar />
+            <span>Biography</span>
+
+        </>
     );
 }
 

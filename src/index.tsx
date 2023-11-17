@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import MainPage from './components/MainPage';
 import ErrorPage from './components/ErrorPage';
 import BiographyPage from './components/BiographyPage';
-
+import Career from './components/Career';
 
 const router = createBrowserRouter([
   {
@@ -16,12 +16,12 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/home",
-    element: <MainPage />,
-  },
-  {
     path: "/bio",
     element: <BiographyPage />,
+  },
+  {
+    path: "/career",
+    element: <Career />,
   },
 ]);
 
@@ -31,7 +31,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

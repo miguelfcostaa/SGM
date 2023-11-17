@@ -59,10 +59,43 @@ code {
   left: 140px;
   background-color: #D9D9D9;
   border-radius: 25px;
+  border: 0cm;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 1.3rem;
   font-family: 'Times New Roman', Times, serif;
 }
+
+.mainPageBtn:hover {
+  cursor: pointer;
+}
+
+.imgCareer {
+  position: absolute;
+  width: 100%;
+}
+
+.imgTranferHistory {
+  display: flex;
+  justify-content: center;
+   align-items: center;
+}
+
+.imgAndorinha {
+  height: 7;
+  width: 90px;
+  position: absolute;
+  top: 197px;
+  left: 40px;
+}
+
+.imgNacional{
+  height: 7;
+  width: 90px;
+  position: absolute;
+  top: 437px;
+  left: 142px;
+}
+

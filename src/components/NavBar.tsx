@@ -77,14 +77,37 @@ const NavBar = (() => {
                     <img height='53' width='68' src='https://cdn.discordapp.com/attachments/707687832239603863/1167114537376419951/cr7_logo.png?ex=654cf31d&is=653a7e1d&hm=d24f4a58bbae0f2f4fa9719682fa593a00eef09621c851548b08a54df2162e58&'/>
             
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, marginLeft: 5 }}>
-                        {pages.map((page) => (
+                        
                         <Button
-                            key={page}
-                            sx={{ my: 2, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
+                          sx={{ my: 2, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
+                          href='/'
                         >
-                          {page}
+                          Home
                         </Button>
-                        ))}
+                        <Button
+                          sx={{ my: 2, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
+                          href='/bio'
+                        >
+                          Biography
+                        </Button>
+                        <Button
+                          sx={{ my: 2, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
+                          href='/career'
+                        >
+                          Career
+                        </Button>
+                        <Button
+                          sx={{ my: 2, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
+                          href='/video'
+                        >
+                          Videos
+                        </Button>
+                        <Button
+                          sx={{ my: 2, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
+                          href='/photo'
+                        >
+                          Photos
+                        </Button>
                     </Box>
 
                     <Search>

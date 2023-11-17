@@ -1,9 +1,11 @@
 import { Box, Button } from "@mui/material";
 import React from "react";
+import NavBar from "./NavBar";
 
 const MainPage = () => {
   return (
     <>
+      <NavBar />
       <Box sx={{ marginLeft: '770px', marginTop: "40px" }}>
         <img
           height="600"
