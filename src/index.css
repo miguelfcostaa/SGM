@@ -116,8 +116,8 @@ code {
   position: absolute;
   height: 6;
   width: 80px;
-  top: 276px;
-  left: 313px;
+  top: 286px;
+  left: 323px;
   opacity: 0;
 }
 
@@ -130,8 +130,8 @@ code {
   position: absolute;
   height: 8;
   width: 95px;
-  left: 435px;
-  top: 515px;
+  left: 447px;
+  top: 525px;
   opacity: 0;
 }
 
@@ -143,8 +143,8 @@ code {
   position: absolute;
   height: 10;
   width: 120px;
-  top: 265px;
-  left: 663px;
+  top: 275px;
+  left: 673px;
   opacity: 0;
 }
 
@@ -157,8 +157,8 @@ code {
   position: absolute;
   height: 7;
   width: 65px;
-  top: 282px;
-  left: 1172px;
+  top: 292px;
+  left: 1185px;
   opacity: 0;
 }
 
@@ -170,8 +170,8 @@ code {
   position: absolute;
   height: 8;
   width: 95px;
-  left: 1325px;
-  top: 515px;
+  left: 1338px;
+  top: 520px;
   opacity: 0;
 }
 
@@ -183,11 +183,15 @@ code {
   position: absolute;
   height: 10;
   width: 90px;
-  top: 270px;
-  left: 1482px;
+  top: 280px;
+  left: 1495px;
   opacity: 0;
 }
 
 .imgAlNassr:hover {
   opacity: 100;
+}
+
+.btnNavBar:hover {
+  color: white;
 }

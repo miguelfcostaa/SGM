@@ -9,6 +9,15 @@ import SearchIcon from '@mui/icons-material/Search';
 import { styled, alpha } from '@mui/material/styles';
 import InputBase from '@mui/material/InputBase';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import Dropdown from 'react-bootstrap/Dropdown';
+import ButtonGroup from '@mui/material/ButtonGroup';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import ClickAwayListener from '@mui/material/ClickAwayListener';
+import Grow from '@mui/material/Grow';
+import Paper from '@mui/material/Paper';
+import Popper from '@mui/material/Popper';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
 
 const pages = ['Home','Biography','Career','Videos','Photos'];
 
@@ -20,7 +29,7 @@ const theme = createTheme({
         main: '#1976d2',
       },
     },
-  });
+});
 
 
 const Search = styled('div')(({ theme }) => ({
@@ -68,6 +77,36 @@ const Search = styled('div')(({ theme }) => ({
 
 const NavBar = (() => {
 
+  const options = ['Career', 'Club Career', 'International Career'];
+
+  const [open, setOpen] = React.useState(false);
+  const anchorRef = React.useRef<HTMLDivElement>(null);
+  const [selectedIndex, setSelectedIndex] = React.useState(1);
+
+
+  const handleMenuItemClick = (
+    event: React.MouseEvent<HTMLLIElement, MouseEvent>,
+    index: number,
+  ) => {
+    setSelectedIndex(index);
+    setOpen(false);
+  };
+
+  const handleToggle = () => {
+    setOpen((prevOpen) => !prevOpen);
+  };
+
+  const handleClose = (event: Event) => {
+    if (
+      anchorRef.current &&
+      anchorRef.current.contains(event.target as HTMLElement)
+    ) {
+      return;
+    }
+
+    setOpen(false);
+  };
+
 
     return (
         <ThemeProvider theme={theme}>
@@ -79,32 +118,86 @@ const NavBar = (() => {
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, marginLeft: 5 }}>
                         
                         <Button
-                          sx={{ my: 2, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
+                          sx={{ paddingTop: 3, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
                           href='/'
+                          className='btnNavBar'
                         >
                           Home
                         </Button>
                         <Button
-                          sx={{ my: 2, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
+                          sx={{ paddingTop: 3, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
                           href='/bio'
+                          className='btnNavBar'
                         >
                           Biography
                         </Button>
                         <Button
-                          sx={{ my: 2, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
+                          sx={{ paddingTop: 3, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
                           href='/career'
+                          className='btnNavBar'
                         >
                           Career
                         </Button>
+                        <ButtonGroup variant="outlined" ref={anchorRef} >
+                          <Button 
+                            variant="text"
+                            onClick={handleToggle}
+                            sx={{ my: 0, color: 'white', display: 'block', textTransform: 'capitalize', fontSize: 17 }}
+                            className='btnNavBar'
+                          >
+                            {options[selectedIndex]}
+                             
+                            <ArrowDropDownIcon />
+                          </Button>
+                        </ButtonGroup>
+                        <Popper
+                          sx={{
+                            zIndex: 1,
+                          }}
+                          open={open}
+                          anchorEl={anchorRef.current}
+                          role={undefined}
+                          transition
+                          disablePortal
+                        >
+                          {({ TransitionProps, placement }) => (
+                            <Grow
+                              {...TransitionProps}
+                              style={{
+                                transformOrigin:
+                                  placement === 'bottom' ? 'center top' : 'center bottom',
+                              }}
+                            >
+                              <Paper>
+                                <ClickAwayListener onClickAway={handleClose}>
+                                  <MenuList id="split-button-menu" autoFocusItem>
+                                    {options.map((option, index) => (
+                                      <MenuItem
+                                        key={option}
+                                        selected={index === selectedIndex}
+                                        onClick={(event) => handleMenuItemClick(event, index)}
+                                      >
+                                        {option}
+                                      </MenuItem>
+                                    ))}
+                                  </MenuList>
+                                </ClickAwayListener>
+                              </Paper>
+                            </Grow>
+                          )}
+                        </Popper>
+                        
                         <Button
-                          sx={{ my: 2, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
+                          sx={{ paddingTop: 3, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
                           href='/video'
+                          className='btnNavBar'
                         >
                           Videos
                         </Button>
                         <Button
-                          sx={{ my: 2, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
+                          sx={{ paddingTop: 3, paddingBottom: 2.4, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
                           href='/photo'
+                          className='btnNavBar'
                         >
                           Photos
                         </Button>
