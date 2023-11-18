@@ -19,7 +19,7 @@ code {
 
 .mainPageTitle {
   position: absolute;
-  left: 140px;
+  left: 290px;
   top: 230px;
   font-size: 6rem;
   font-family: 'Times New Roman', Times, serif;
@@ -30,7 +30,7 @@ code {
   font-family: 'Times New Roman', Times, serif;
   position: absolute;
   top: 330px;
-  left: 140px;
+  left: 290px;
   font-size: 2.5rem;
   color: #9B9B9B;
 }
@@ -39,7 +39,7 @@ code {
   font-family: 'Times New Roman', Times, serif;
   position: absolute;
   top: 380px;
-  left: 140px;
+  left: 290px;
   font-size: 2.5rem;
   color: #9B9B9B;
 }
@@ -48,7 +48,7 @@ code {
   font-family: 'Times New Roman', Times, serif;
   position: absolute;
   top: 430px;
-  left: 140px;
+  left: 290px;
   font-size: 2.5rem;
   color: #9B9B9B;
 }
@@ -56,7 +56,7 @@ code {
 .mainPageBtn{
   position: absolute;
   top: 500px;
-  left: 140px;
+  left: 290px;
   background-color: #D9D9D9;
   border-radius: 25px;
   border: 0cm;
@@ -89,8 +89,8 @@ code {
   position: absolute;
   height: 7;
   width: 90px;
-  top: 260px;
-  left: 96px;
+  top: 270px;
+  left: 110px;
   opacity: 0;
 }
 
@@ -102,8 +102,8 @@ code {
   position: absolute;
   height: 8;
   width: 95px;
-  top: 518px;
-  left: 195px;
+  top: 525px;
+  left: 207px;
   opacity: 0;
 }
 

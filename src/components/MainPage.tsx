@@ -6,10 +6,10 @@ const MainPage = () => {
   return (
     <>
       <NavBar />
-      <Box sx={{ marginLeft: '800px', marginTop: "120px" }}>
+      <Box sx={{ marginLeft: '950px', marginTop: "45px" }}>
         <img
-          height="700"
-          width="880"
+          height="800"
+          width="980"
           src="https://cdn.discordapp.com/attachments/707687832239603863/1167125417493274674/image.png?ex=654cfd3f&is=653a883f&hm=9195d283ad955a78a06e18a810284347e3e1828a38df5ad344c0ba0a963bfc1e&"
         ></img>
       </Box>
