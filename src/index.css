@@ -5,11 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #414141;
-  background-repeat: no-repeat;
-  background-size: 200% 200%;
-  min-height: 100%;
-  overflow: hidden;
+
 }
 
 code {
@@ -219,16 +215,36 @@ code {
   height: 50px;
   background: white;
   padding-top: 15px;
-  padding-left: 15px;
+  padding-left: 25px;
 }
 
 .whiteBoxAbout { 
   position: absolute;
   top: 292px;
   left: 700px;
-  width: 785px;
-  height: 25
-  5px;
+  width: 775px;
+  height: 225px;
   background: white;
-  padding: 15px;
+  padding: 25px;
+  padding-top: 35px;
+}
+
+.whiteBoxTitleCareerStats {
+  margin-left: 265px;
+  margin-top: 50px;
+  width: 600px;
+  height: 50px;
+  background: white;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+.whiteBoxCareerStats {
+  margin-left: 265px;
+  margin-top: 5px;
+  width: 600px;
+  height: 500px;
+  background: white;
+  padding-top: 15px;
+  padding-left: 25px;
 }

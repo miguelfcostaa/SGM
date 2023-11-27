@@ -7,7 +7,7 @@ const Career = () => {
         <>
             <NavBar />
             <img className='imgCareer' src='https://cdn.discordapp.com/attachments/707687832239603863/1174739018634772540/image.png?ex=6568aff7&is=65563af7&hm=e8686f8bb42c2e636fcaa47956d673fe2739c014dc7a259471ccb65e27f1093e&' />
-            <span style={{ position: 'absolute', top: '15%', left: '40%', fontSize: 60, fontFamily: 'Times New Roman' }}>Transfer History</span>
+            <span style={{ overflow: 'hidden' , position: 'absolute', top: '15%', left: '40%', fontSize: 60, fontFamily: 'Times New Roman' }}>Transfer History</span>
             <img className='imgTranferHistory' height={400} src='https://cdn.discordapp.com/attachments/707687832239603863/1175105574040510474/image.png?ex=656a0559&is=65579059&hm=9238127684029d25ad9ae5f97059fcd0c8b8575dab7a1bcb3157448f15775e03&'/>
             
             

@@ -4,7 +4,7 @@ import NavBar from "./NavBar";
 
 const MainPage = () => {
   return (
-    <>
+    <div style={{ overflow: 'hidden', background: '#414141', position: 'absolute', height: '100%', width: '100%' }}>
       <NavBar />
       <Box sx={{ marginLeft: '950px', marginTop: "45px" }}>
         <img
@@ -30,7 +30,7 @@ const MainPage = () => {
 
 
 
-    </>
+    </div>
   );
 };
 
