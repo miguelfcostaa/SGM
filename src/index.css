@@ -195,3 +195,13 @@ code {
 .btnNavBar:hover {
   color: white;
 }
+
+
+.bioTitle {
+  position: absolute;
+  left: 290px;
+  top: 230px;
+  font-size: 6rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}

@@ -2,14 +2,12 @@ import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import SearchIcon from '@mui/icons-material/Search';
 import { styled, alpha } from '@mui/material/styles';
 import InputBase from '@mui/material/InputBase';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import Dropdown from 'react-bootstrap/Dropdown';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
@@ -18,8 +16,7 @@ import Paper from '@mui/material/Paper';
 import Popper from '@mui/material/Popper';
 import MenuItem from '@mui/material/MenuItem';
 import MenuList from '@mui/material/MenuList';
-
-const pages = ['Home','Biography','Career','Videos','Photos'];
+import { Link } from 'react-router-dom';
 
 
 const theme = createTheme({
@@ -81,7 +78,7 @@ const NavBar = (() => {
 
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef<HTMLDivElement>(null);
-  const [selectedIndex, setSelectedIndex] = React.useState(1);
+  const [selectedIndex, setSelectedIndex] = React.useState(0);
 
 
   const handleMenuItemClick = (
@@ -131,13 +128,7 @@ const NavBar = (() => {
                         >
                           Biography
                         </Button>
-                        <Button
-                          sx={{ paddingTop: 3, color: 'white', display: 'block', textTransform: 'capitalize', marginRight: 2, fontSize: 17, paddingLeft: 2, paddingRight: 2 }}
-                          href='/career'
-                          className='btnNavBar'
-                        >
-                          Career
-                        </Button>
+                        
                         <ButtonGroup variant="outlined" ref={anchorRef} >
                           <Button 
                             variant="text"
@@ -145,7 +136,9 @@ const NavBar = (() => {
                             sx={{ my: 0, color: 'white', display: 'block', textTransform: 'capitalize', fontSize: 17 }}
                             className='btnNavBar'
                           >
-                            {options[selectedIndex]}
+                            <Link to={`/${options[selectedIndex].replace(/\s+/g, '-').toLowerCase()}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+                              {options[selectedIndex]}
+                            </Link>
                              
                             <ArrowDropDownIcon />
                           </Button>
@@ -177,7 +170,9 @@ const NavBar = (() => {
                                         selected={index === selectedIndex}
                                         onClick={(event) => handleMenuItemClick(event, index)}
                                       >
-                                        {option}
+                                        <Link to={`/${option.replace(/\s+/g, '-').toLowerCase()}`} style={{ textDecoration: 'none', color: 'inherit' }} >
+                                          {option}
+                                        </Link>
                                       </MenuItem>
                                     ))}
                                   </MenuList>

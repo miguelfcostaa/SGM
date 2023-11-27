@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
 import MainPage from './components/MainPage';
 import ErrorPage from './components/ErrorPage';
-import BiographyPage from './components/BiographyPage';
+import Biography from './components/Biography';
 import Career from './components/Career';
+import Photo from './components/Photo';
+import Video from './components/Video';
 
 const router = createBrowserRouter([
   {
@@ -17,11 +20,27 @@ const router = createBrowserRouter([
   },
   {
     path: "/bio",
-    element: <BiographyPage />,
+    element: <Biography />,
   },
   {
     path: "/career",
     element: <Career />,
+  },
+  {
+    path: "/international-career",
+    element: <Career />,
+  },
+  {
+    path: "/club-career",
+    element: <Career />,
+  },
+  {
+    path: "/video",
+    element: <Video />,
+  },
+  {
+    path: "/photo",
+    element: <Photo />,
   },
 ]);
 

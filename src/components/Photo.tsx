@@ -1,14 +1,14 @@
 import React from 'react';
 import NavBar from './NavBar';
 
-const BiographyPage = () => {
+const Photo = () => {
     return (
         <>
             <NavBar />
-            <span>Biography</span>
+            <span>Photo</span>
 
         </>
     );
 }
 
-export default BiographyPage;
+export default Photo;
