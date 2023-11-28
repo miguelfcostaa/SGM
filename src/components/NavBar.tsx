@@ -136,9 +136,7 @@ const NavBar = (() => {
                             sx={{ my: 0, color: 'white', display: 'block', textTransform: 'capitalize', fontSize: 17 }}
                             className='btnNavBar'
                           >
-                            <Link to={`/${options[selectedIndex].replace(/\s+/g, '-').toLowerCase()}`} style={{ textDecoration: 'none', color: 'inherit' }}>
                               {options[selectedIndex]}
-                            </Link>
                              
                             <ArrowDropDownIcon />
                           </Button>
