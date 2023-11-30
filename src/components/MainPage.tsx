@@ -25,11 +25,12 @@ const MainPage = () => {
       <span className="mainPageDesc3">
         footballer who plays as...
       </span>
-
-      <input type="button" className="mainPageBtn" value="Learn More"/>
-
-
-
+      <input
+        type="button"
+        className="mainPageBtn"
+        value="Learn More"
+        onClick={() => window.location.href = "/timeline1"}
+      />
     </div>
   );
 };

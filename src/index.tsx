@@ -11,6 +11,7 @@ import Biography from './components/Biography';
 import Career from './components/Career';
 import Photo from './components/Photo';
 import Video from './components/Video';
+import Timeline1 from './components/Timeline1';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
     path: "/photo",
     element: <Photo />,
   },
+  {
+    path: "/timeline1",
+    element: <Timeline1 />,
+  }
 ]);
 
 

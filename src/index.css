@@ -248,3 +248,31 @@ code {
   padding-top: 15px;
   padding-left: 25px;
 }
+
+.TimelineTitle {
+  position: absolute;
+  left: 290px;
+  top: 150px;
+  font-size: 6rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.ball {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 450px;
+  left: 326px;
+}
+
+.line {
+  top: 475px;
+  left: 348px;
+  width: 15px;
+  height: 80%;
+  background-color: white;
+  position: absolute;
+}
