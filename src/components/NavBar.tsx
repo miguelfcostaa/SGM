@@ -136,7 +136,7 @@ const NavBar = (() => {
                             sx={{ my: 0, color: 'white', display: 'block', textTransform: 'capitalize', fontSize: 17 }}
                             className='btnNavBar'
                           >
-                              {options[selectedIndex]}
+                            {options[selectedIndex]}
                              
                             <ArrowDropDownIcon />
                           </Button>

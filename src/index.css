@@ -229,10 +229,15 @@ code {
   padding-top: 35px;
 }
 
+.flexCarrerStatsAndTransfer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .whiteBoxTitleCareerStats {
   margin-left: 265px;
   margin-top: 50px;
-  width: 600px;
+  width: 550px;
   height: 50px;
   background: white;
   padding-top: 15px;
@@ -242,8 +247,28 @@ code {
 .whiteBoxCareerStats {
   margin-left: 265px;
   margin-top: 5px;
-  width: 600px;
-  height: 500px;
+  width: 550px;
+  height: 325px;
+  background: white;
+  padding-left: 25px;
+  padding-top: 35px;
+}
+
+.whiteBoxTitleTransferHist {
+  margin-left: 110px;
+  margin-top: 50px;
+  width: 550px;
+  height: 50px;
+  background: white;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+.whiteBoxTransferHist {
+  margin-left: 110px;
+  margin-top: 5px;
+  width: 550px;
+  height: 350px;
   background: white;
   padding-top: 15px;
   padding-left: 25px;
