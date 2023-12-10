@@ -274,6 +274,28 @@ code {
   padding-left: 25px;
 }
 
+.whiteBoxTitleEarlyLife {
+  margin-left: 265px;
+  margin-top: 50px;
+  width: 1230px;
+  height: 50px;
+  background: white;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+.whiteBoxEarlyLife {
+  margin-left: 265px;
+  margin-top: 5px;
+  width: 1205px;
+  height: 450px;
+  background: white;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 1.8;
+}
+
 .TimelineTitle {
   position: absolute;
   left: 290px;
@@ -300,4 +322,8 @@ code {
   height: 80%;
   background-color: white;
   position: absolute;
+}
+
+.hyperlink:hover {
+  cursor: pointer;
 }
