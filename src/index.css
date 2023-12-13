@@ -360,6 +360,15 @@ code {
   color: white;
 }
 
+.datatimeline2 {
+  position: absolute;
+  left: 250px;
+  top: 455px;
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
 .invisible-button {
   background-color: transparent;
   border: none;
