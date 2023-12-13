@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-
+import "bootstrap/dist/css/bootstrap.css";
 import MainPage from './components/MainPage';
 import ErrorPage from './components/ErrorPage';
 import Biography from './components/Biography';
@@ -12,6 +12,7 @@ import Career from './components/Career';
 import Photo from './components/Photo';
 import Video from './components/Video';
 import Timeline1 from './components/Timeline1';
+import ClubCareer from './components/ClubCareer';
 
 const router = createBrowserRouter([
   {
@@ -33,7 +34,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/club-career",
-    element: <Career />,
+    element: <ClubCareer />,
   },
   {
     path: "/video",
