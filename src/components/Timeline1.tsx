@@ -19,23 +19,27 @@ const Timeline1 = () => {
             <div className="ball"></div>
             <div className="line"></div>
             <div className="textotimeline1">
-                <p> Cristiano Ronaldo, nascido na cidade do Funchal, na ilha da Madeira,<br></br>
-                    em 5 de fevereiro de 1985, desde a infância já revelava sua paixão <br></br>
-                    pelo futebol. Os dias eram preenchidos com partidas improvisadas nas ruas, <br></br>
-                    compartilhadas com amigos, onde os primeiros traços do fenômeno surgiam. <br></br>
-                    Aos 9 anos, deu início à sua trajetória no Futebol Clube Andorinha, marcando <br></br>
-                    o ponto de partida de uma carreira lendária. Suas habilidades excepcionais <br></br>
-                    chamaram a atenção do Clube Desportivo Nacional, um dos gigantes do futebol na <br></br>
-                    ilha da Madeira, que o contratou em 1995. Após dois anos nas categorias de <br></br>
-                    base do Nacional, Cristiano fez a transição para as categorias de base do <br></br>
-                    Sporting Clube de Portugal em 1997. Essa mudança foi motivada por uma dívida <br></br>
-                    de 450 mil escudos (2.244 euros) do Nacional com o Sporting</p>
+                <p> Cristiano Ronaldo, born in the city of Funchal on the island of Madeira,<br></br>
+                    on February 5, 1985, already revealed his passion for football from childhood. <br></br>
+                    Days were filled with improvised matches on the streets, shared with friends,<br></br>
+                    where the first traces of the phenomenon emerged. At the age of 9, he began <br></br>
+                    his journey at Futebol Clube Andorinha, marking the starting point of a <br></br>
+                    legendary career. His exceptional skills caught the attention of Clube <br></br>
+                    Desportivo Nacional, one of the giants of football in Madeira, who signed <br></br>
+                    him in 1995. After two years in the youth categories of Nacional, Cristiano <br></br>
+                    transitioned to the youth categories of Sporting Clube de Portugal in 1997. <br></br>
+                    This change was motivated by a debt of 450 thousand escudos (2,244 euros) <br></br>
+                    that Nacional owed to Sporting.
+                </p>
             </div>
             <span className="datatimeline1"> 
                    1985 <br></br>
                    <center> - </center>
                    1997
             </span>
+            <div>
+                <button className="invisible-button-bottom" onClick={() => window.location.href = "/timeline2"}></button>
+            </div>
         </div>
     );
 }

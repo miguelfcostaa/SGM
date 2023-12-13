@@ -12,6 +12,8 @@ import Career from './components/Career';
 import Photo from './components/Photo';
 import Video from './components/Video';
 import Timeline1 from './components/Timeline1';
+import Timeline2 from './components/Timeline2';
+import Timeline3 from './components/Timeline3';
 import ClubCareer from './components/ClubCareer';
 
 const router = createBrowserRouter([
@@ -47,6 +49,14 @@ const router = createBrowserRouter([
   {
     path: "/timeline1",
     element: <Timeline1 />,
+  },
+  {
+    path: "/timeline2",
+    element : <Timeline2 />,
+  },
+  {
+    path: "/timeline3",
+    element: <Timeline3 />,
   }
 ]);
 
