@@ -15,6 +15,7 @@ import Timeline1 from './components/Timeline1';
 import Timeline2 from './components/Timeline2';
 import Timeline3 from './components/Timeline3';
 import Timeline4 from './components/Timeline4';
+import Timeline5 from './components/Timeline5';
 import ClubCareer from './components/ClubCareer';
 
 const router = createBrowserRouter([
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
   {
     path: "/timeline4",
     element : <Timeline4 />,
+  },
+  {
+    path: "/timeline5",
+    element : <Timeline5 />,
   }
 ]);
 

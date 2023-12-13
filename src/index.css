@@ -351,6 +351,15 @@ code {
   color: white;
 }
 
+.textotimeline2 {
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 160px;
+  left: 410px;
+  font-size: 1.8rem;
+  color: white;
+}
+
 .datatimeline1 {
   position: absolute;
   left: 250px;
