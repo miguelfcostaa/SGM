@@ -16,6 +16,7 @@ import Timeline2 from './components/Timeline2';
 import Timeline3 from './components/Timeline3';
 import Timeline4 from './components/Timeline4';
 import Timeline5 from './components/Timeline5';
+import Timeline6 from './components/Timeline6';
 import ClubCareer from './components/ClubCareer';
 import RealMadrid from './components/Clubs/RealMadrid';
 import RealMadridChampions from './components/Clubs/RealMadridChampions';
@@ -94,6 +95,10 @@ const router = createBrowserRouter([
   {
     path: "/timeline5",
     element : <Timeline5 />,
+  },
+  {
+    path: "/timeline6",
+    element : <Timeline6 />,
   }
 ]);
 
