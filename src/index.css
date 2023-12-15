@@ -411,18 +411,29 @@ code {
 }
 
 .textotimeline1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Times New Roman', Times, serif;
   position: absolute;
-  top: 270px;
+  width: 1050px;
+  height: 550px;
+  top: 210px;
   left: 410px;
-  font-size: 2.0rem;
+  font-size: 1.8rem;
   color: white;
 }
 
 .textotimeline2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Times New Roman', Times, serif;
   position: absolute;
-  top: 160px;
+  border: 1px;
+  width: 1050px;
+  height: 650px;
+  top: 150px;
   left: 410px;
   font-size: 1.8rem;
   color: white;

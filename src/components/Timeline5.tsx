@@ -14,13 +14,13 @@ const Timeline5 = () => {
                 ></img>
             </Box>
             <div>
-                <button className="invisible-button" onClick={() => window.location.href = "/timeline2"}></button>
+                <button className="invisible-button" onClick={() => window.location.href = "/timeline4"}></button>
             </div>
             <div className="line-full"></div>
             <div className="ball"></div>
             <div className="textotimeline2">
                 <p>
-                    
+
                 </p>
             </div>
         </div>

@@ -18,17 +18,17 @@ const Timeline2 = () => {
             </div>
             <div className="line-full"></div>
             <div className="ball"></div>
-            <div className="textotimeline1">
-                <p>
-                    On April 14, 1997, Cristiano Ronaldo joined Sporting Clube Lisboa, where he <br></br>
-                    played for the Sporting under-16, under-17, under-18, B teams, and the <br></br>
-                    first team. Ronaldo scored 2 goals in his debut for the first team against <br></br>
-                    Moreirense and made his first appearance for Portugal in the UEFA European <br></br>
-                    Under-17 Championship. At the age of 15, he was diagnosed with a heart <br></br>
-                    condition that could have forced him to give up playing football. A successful <br></br>
-                    operation was performed, and he resumed playing. On July 13, 2002, Ronaldo <br></br>
+            <div className="textotimeline2">
+                <div>
+                    On April 14, 1997, Cristiano Ronaldo joined Sporting Clube Lisboa, where he 
+                    played for the Sporting under-16, under-17, under-18, B teams, and the 
+                    first team. Ronaldo scored 2 goals in his debut for the first team against 
+                    Moreirense and made his first appearance for Portugal in the UEFA European 
+                    Under-17 Championship. At the age of 15, he was diagnosed with a heart 
+                    condition that could have forced him to give up playing football. A successful 
+                    operation was performed, and he resumed playing. On July 13, 2002, Ronaldo 
                     started as a titular player in the first team, playing 30 games and scoring 5 goals. 
-                </p>
+                </div>
             </div>
             <span className="datatimeline1"> 
                    1997 <br></br>
