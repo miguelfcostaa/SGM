@@ -60,7 +60,7 @@ const router = createBrowserRouter([
     element: <Photo />,
   },
   {
-    path: "/timeline",
+    path: "/timeline1",
     element: <Timeline1 />,
   },
   {
