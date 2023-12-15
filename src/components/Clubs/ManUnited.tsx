@@ -3,52 +3,52 @@ import NavBar from '../NavBar';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 
-const RealMadrid = () => {
+const ManUnited = () => {
     return (
         <>
             <NavBar />
             <div style={{ display: 'flex' }}>
-                <img width={1100} height={846} src='https://pbs.twimg.com/media/FxDwNNwWcAAGT1a.jpg:large' />
+                <img width={1100} height={846} src='https://placar.com.br/wp-content/uploads/2021/09/GettyImages-81191334.jpg' />
 
-                <span style={{ fontSize: '2.8rem', fontFamily:'serif', marginLeft: 280, paddingTop: 50 }}> Real Madrid Stats </span>
+                <span style={{ fontSize: '2.8rem', fontFamily:'serif', marginLeft: 230, paddingTop: 50 }}> Manchester United Stats </span>
             </div>
             
-            <div className='logoRealMadrid'>
-                <img width={250} height={350} src='https://www.freepnglogos.com/uploads/real-madrid-logo-png/real-madrid-logo-large-images-3.png'/>
+            <div className='logoManUnited'>
+                <img width={350} height={350} src='https://www.freepnglogos.com/uploads/manchester-united-logo-png/manchester-united-logo-manchester-united-wallpapers-wallpaper-cave-0.png'/>
             </div>
 
             <div className='chooseCompetitionBtn'>
                 <DropdownButton id="dropdown-basic-button" title="Competitions" size='lg' variant="secondary">
-                    <Dropdown.Item href="/club-career/realMadrid/">All Stats</Dropdown.Item>
-                    <Dropdown.Item href="/club-career/realMadrid/laliga">LaLiga</Dropdown.Item>
-                    <Dropdown.Item href="/club-career/realMadrid/champions">Champions League</Dropdown.Item>
+                    <Dropdown.Item href="/club-career/manUnited/">All Stats</Dropdown.Item>
+                    <Dropdown.Item href="/club-career/manUnited/premier">Premier League</Dropdown.Item>
+                    <Dropdown.Item href="/club-career/manUnited/champions">Champions League</Dropdown.Item>
                 </DropdownButton>
             </div>
 
 
             <div className='gamesPlayed'>
                 <span style={{ fontSize: 26, fontWeight: 'bold'}}> GAMES PLAYED </span>
-                <span style={{ fontSize: 26, paddingLeft: 80 }}> 438 </span>
+                <span style={{ fontSize: 26, paddingLeft: 80 }}> 346 </span>
             </div>
 
             <div className='goals'>
                 <span style={{ fontSize: 26, fontWeight: 'bold'}}> GOALS </span>
-                <span style={{ fontSize: 26, paddingLeft: 190 }}> 450 </span>
+                <span style={{ fontSize: 26, paddingLeft: 190 }}> 145 </span>
             </div>
 
             <div className='assists'>
                 <span style={{ fontSize: 26, fontWeight: 'bold'}}> ASSISTS </span>
-                <span style={{ fontSize: 26, paddingLeft: 170 }}> 131 </span>
+                <span style={{ fontSize: 26, paddingLeft: 184 }}> 64 </span>
             </div>
 
             <div className='minutesPlayed'>
                 <span style={{ fontSize: 26, fontWeight: 'bold'}}> MINUTES PLAYED </span>
-                <span style={{ fontSize: 26, paddingLeft: 45 }}> 37.835' </span>
+                <span style={{ fontSize: 26, paddingLeft: 45 }}> 26.580' </span>
             </div>
 
             <div className='trophies'>
                 <span style={{ fontSize: 26, fontWeight: 'bold'}}> TROPHIES </span>
-                <span style={{ fontSize: 26, paddingLeft: 160 }}> 13 </span>
+                <span style={{ fontSize: 26, paddingLeft: 174 }}> 9 </span>
             </div>
             
             
@@ -56,4 +56,4 @@ const RealMadrid = () => {
     );
 }
 
-export default RealMadrid;
+export default ManUnited;

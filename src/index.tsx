@@ -20,6 +20,10 @@ import ClubCareer from './components/ClubCareer';
 import RealMadrid from './components/Clubs/RealMadrid';
 import RealMadridChampions from './components/Clubs/RealMadridChampions';
 import RealMadridLaLiga from './components/Clubs/RealMadridLaLiga';
+import ManUnitedPremier from './components/Clubs/ManUnitedPremier';
+import ManUnited from './components/Clubs/ManUnited';
+import { Man } from '@mui/icons-material';
+import ManUnitedChampions from './components/Clubs/ManUnitedChampions';
 
 const router = createBrowserRouter([
   {
@@ -50,6 +54,18 @@ const router = createBrowserRouter([
   {
     path: '/club-career/realMadrid/laliga',
     element: <RealMadridLaLiga />,
+  },
+  {
+    path: '/club-career/manUnited',
+    element: <ManUnited />,
+  },
+  {
+    path: '/club-career/manUnited/champions',
+    element: <ManUnitedChampions />,
+  },
+  {
+    path: '/club-career/manUnited/premier',
+    element: <ManUnitedPremier />,
   },
   {
     path: "/video",
