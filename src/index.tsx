@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import MainPage from './components/MainPage';
 import ErrorPage from './components/ErrorPage';
 import Biography from './components/Biography';
-import Career from './components/Career';
+import InternationalCareer from './components/InternationalCareer';
 import Photo from './components/Photo';
 import Video from './components/Video';
 import Timeline1 from './components/Timeline1';
@@ -17,6 +17,9 @@ import Timeline3 from './components/Timeline3';
 import Timeline4 from './components/Timeline4';
 import Timeline5 from './components/Timeline5';
 import ClubCareer from './components/ClubCareer';
+import RealMadrid from './components/Clubs/RealMadrid';
+import RealMadridChampions from './components/Clubs/RealMadridChampions';
+import RealMadridLaLiga from './components/Clubs/RealMadridLaLiga';
 
 const router = createBrowserRouter([
   {
@@ -29,16 +32,24 @@ const router = createBrowserRouter([
     element: <Biography />,
   },
   {
-    path: "/career",
-    element: <Career />,
-  },
-  {
     path: "/international-career",
-    element: <Career />,
+    element: <InternationalCareer />,
   },
   {
     path: "/club-career",
     element: <ClubCareer />,
+  },
+  {
+    path: '/club-career/realMadrid',
+    element: <RealMadrid />,
+  },
+  {
+    path: '/club-career/realMadrid/champions',
+    element: <RealMadridChampions />,
+  },
+  {
+    path: '/club-career/realMadrid/laliga',
+    element: <RealMadridLaLiga />,
   },
   {
     path: "/video",
@@ -49,7 +60,7 @@ const router = createBrowserRouter([
     element: <Photo />,
   },
   {
-    path: "/timeline1",
+    path: "/timeline",
     element: <Timeline1 />,
   },
   {

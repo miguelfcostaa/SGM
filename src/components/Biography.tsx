@@ -90,6 +90,9 @@ const Biography = () => {
                             <p style={{ textIndent: 50 }}> A tall player at 6 feet 1 inch (1.85 metres), Ronaldo was a formidable athlete on the pitch. Originally a right-winger, he developed into a forward with a free-reined attacking style. He was able to mesmerize opponents with a sleight of foot that made sufficient space for openings in opposing defenses.</p>
                         </span>
                     </div>
+                    <div className='whiteBoxCheckTimeline'>
+                        <span style={{ fontSize: '2.2rem', fontFamily:'serif'}}> Check Timeline <a href='/timeline1' ><img height={29} width={29} src='https://cdn.discordapp.com/attachments/707687832239603863/1183456013748293803/resize-64.png?ex=6588664d&is=6575f14d&hm=7871078fb612aef161c566b88928fdb7ac8c804c47c734039ced793338f7618b&' className='hyperlink' /></a> </span>
+                    </div>
             </div>
         </div>
     );
