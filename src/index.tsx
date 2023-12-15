@@ -24,6 +24,8 @@ import ManUnitedPremier from './components/Clubs/ManUnitedPremier';
 import ManUnited from './components/Clubs/ManUnited';
 import { Man } from '@mui/icons-material';
 import ManUnitedChampions from './components/Clubs/ManUnitedChampions';
+import Sporting from './components/Clubs/Sporting';
+import SportingLigaPT from './components/Clubs/SportingLigaPT';
 
 const router = createBrowserRouter([
   {
@@ -66,6 +68,14 @@ const router = createBrowserRouter([
   {
     path: '/club-career/manUnited/premier',
     element: <ManUnitedPremier />,
+  },
+  {
+    path: '/club-career/sporting',
+    element: <Sporting />,
+  },
+  {
+    path: '/club-career/sporting/ligaPT',
+    element: <SportingLigaPT />,
   },
   {
     path: "/video",
