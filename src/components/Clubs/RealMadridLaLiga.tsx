@@ -46,10 +46,7 @@ const RealMadridLaLiga = () => {
                 <span style={{ fontSize: 26, paddingLeft: 45 }}> 25.114' </span>
             </div>
 
-            <div className='trophies'>
-                <span style={{ fontSize: 26, fontWeight: 'bold'}}> TROPHIES </span>
-                <span style={{ fontSize: 26, paddingLeft: 160 }}> 17 </span>
-            </div>
+            
             
             
         </>

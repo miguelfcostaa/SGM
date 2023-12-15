@@ -328,6 +328,12 @@ code {
   left: 975px;
 }
 
+.logoManUnited {
+  position: absolute;
+  top: 270px;
+  left: 925px;
+}
+
 .chooseCompetitionBtn {
   position: absolute;
   right: 280px;
