@@ -38,7 +38,7 @@ const Timeline6 = () => {
                 2009
             </span>
             <div>
-                <button className="invisible-button-bottom" onClick={() => window.location.href = "/timeline6"}></button>
+                <button className="invisible-button-bottom" onClick={() => window.location.href = "/timeline7"}></button>
             </div>
         </div>
     );
