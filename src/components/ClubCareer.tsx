@@ -17,7 +17,7 @@ const ClubCareer = () => {
             <a href='/club-career/manUnited' ><img className='imgManUnited' src='https://cdn.discordapp.com/attachments/707687832239603863/1175102886116589568/image.png?ex=656a02d8&is=65578dd8&hm=dba795eb5269ef215f31ebb5474e1e908ca22cfe58f578d9333097c7b7c2e6be&' /></a>
             <a href='/club-career/realMadrid' ><img className='imgRealMadrid' src='https://cdn.discordapp.com/attachments/707687832239603863/1175103710414782494/image.png?ex=656a039c&is=65578e9c&hm=4956999a0dad65f45b4e2509cb10bc3347fbed7ccbc50db3153562065feba05b&' /></a>
             <a href='/club-career/juventus' ><img className='imgJuventus' src='https://cdn.discordapp.com/attachments/707687832239603863/1175109934359257148/image.png?ex=656a0968&is=65579468&hm=39a757687e71f6701188d719de4c0c62d8dea865e8b20c90f1d51190b599e792&' /></a>
-            <a href='/club-career/manUnited2' ><img className='imgManUnited2' src='https://cdn.discordapp.com/attachments/707687832239603863/1175102886116589568/image.png?ex=656a02d8&is=65578dd8&hm=dba795eb5269ef215f31ebb5474e1e908ca22cfe58f578d9333097c7b7c2e6be&' /></a>
+            <a href='/club-career/manUnited' ><img className='imgManUnited2' src='https://cdn.discordapp.com/attachments/707687832239603863/1175102886116589568/image.png?ex=656a02d8&is=65578dd8&hm=dba795eb5269ef215f31ebb5474e1e908ca22cfe58f578d9333097c7b7c2e6be&' /></a>
             <a href='/club-career/al-nassr' ><img className='imgAlNassr' src='https://cdn.discordapp.com/attachments/707687832239603863/1175109967846584360/image.png?ex=656a0970&is=65579470&hm=1822422ac603b25fcd87506e11e0d45b72dfcad0dd0c86895ccc54d9c6bb6454&' /></a>
         </>
     );
