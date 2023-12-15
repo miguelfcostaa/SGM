@@ -74,7 +74,7 @@ const Search = styled('div')(({ theme }) => ({
 
 const NavBar = (() => {
 
-  const options = ['Career', 'Club Career', 'International Career'];
+  const options = ['Club Career', 'International Career', 'Timeline'];
 
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef<HTMLDivElement>(null);

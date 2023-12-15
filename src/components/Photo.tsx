@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
 import { Link, useParams } from 'react-router-dom';
+import Card from '@mui/material/Card';
 
 const Photo = () => {
 
@@ -21,21 +22,21 @@ const Photo = () => {
             <div className='flexPhotos'>
                 <div className="row">
                     <div className='col-3'>
-                        <img height={300} width={300} src={ imagem1 } />
+                        <img className="photo" style={{ transition: 'transform 1s, width 1s, height 0.5s' }} height={300} width={300} src={ imagem1 } />
                     </div>
                     <div className='col-4'>
-                        <img height={300} width={400} src={ imagem2 } />
+                        <img className="photo" style={{ transition: 'transform 1s, width 1s, height 1s' }} height={300} width={400} src={ imagem2 } />
                     </div>
                     <div className='col-5'>
-                        <img height={300} width={500} src={ imagem3 } />
+                        <img className="photo" style={{ transition: 'transform 1s, width 1s, height 1s' }} height={300} width={500} src={ imagem3 } />
                     </div>
                 </div>
                 <div className="row">
                     <div className='col-6'>
-                        <img height={300} width={500} src={ imagem4 } />
+                        <img className="photo" style={{ transition: 'transform 1s, width 1s, height 1s' }} height={300} width={500} src={ imagem4 } />
                     </div>
                     <div className='col-6'>
-                        <img height={300} width={500} src={ imagem4 } />
+                        <img className="photo" style={{ transition: 'transform 1s, width 1s, height 1s' }} height={300} width={500} src={ imagem4 } />
                     </div>
                 </div>
             </div>

@@ -297,6 +297,16 @@ code {
   line-height: 1.8;
 }
 
+.whiteBoxCheckTimeline {
+  margin-left: 265px;
+  margin-top: 50px;
+  width: 1210px;
+  height: 75px;
+  background: white;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
 .flexPhotos {
   display: flex;
   flex-flow: row wrap;
@@ -304,6 +314,57 @@ code {
   gap: 10px;
   margin-top: 50px;
 }
+
+.photo:hover, .photo:focus-visible{
+    transform: translateY(-1.5rem);
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+.logoRealMadrid {
+  position: absolute;
+  top: 250px;
+  left: 975px;
+}
+
+.chooseCompetitionBtn {
+  position: absolute;
+  right: 280px;
+  top: 270px;
+}
+
+.gamesPlayed {
+  position: absolute;
+  right: 220px;
+  top: 390px;
+}
+
+.goals {
+  position: absolute;
+  right: 220px;
+  top: 460px;
+}
+
+.assists {
+  position: absolute;
+  right: 220px;
+  top: 530px;
+
+}
+
+.minutesPlayed {
+  position: absolute;
+  right: 200px;
+  top: 600px;
+}
+
+.trophies {
+  position: absolute;
+  right: 220px;
+  top: 670px;
+}
+
 
 
 .TimelineTitle {
@@ -413,3 +474,4 @@ code {
   top: 820px;
   left: 400px;
 }
+
