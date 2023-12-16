@@ -35,7 +35,7 @@ const PhotoID = () => {
             </div>
 
             <Button variant="danger" size="lg" className='btnDownload'> Download </Button>
-            <Button variant="danger" size="lg" className='btnGetLink'> Get Link </Button>
+            <Button variant="danger" size="lg" className='btnGetLink'> View Image </Button>
 
         </div>
     );

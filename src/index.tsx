@@ -35,6 +35,8 @@ import Juventus from './components/Clubs/Juventus';
 import JuventusChampions from './components/Clubs/JuventusChampions';
 import JuventusSerieA from './components/Clubs/JuventusSerieA';
 import PhotoID from './components/PhotoID';
+import PhotoID1 from './components/PhotoID1';
+import VideoPlay from './components/VideoPlay';
 
 const router = createBrowserRouter([
   {
@@ -103,12 +105,20 @@ const router = createBrowserRouter([
     element: <Video />,
   },
   {
+    path: "/video/play",
+    element: <VideoPlay />,
+  },
+  {
     path: "/photo",
     element: <Photo />,
   },
   {
     path: "/photo/:id",
     element: <PhotoID />,
+  },
+  {
+    path: "/photo/1",
+    element: <PhotoID1 />,
   },
   {
     path: "/timeline1",

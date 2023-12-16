@@ -61,7 +61,7 @@ const Biography = () => {
 
                     <div className='col-6'>
                         <div className='whiteBoxTitleTransferHist'>
-                            <span style={{ fontSize: '2.2rem', fontFamily:'serif'}}> Transfer History <a href='/career' ><img height={29} width={29} src='https://cdn.discordapp.com/attachments/707687832239603863/1183456013748293803/resize-64.png?ex=6588664d&is=6575f14d&hm=7871078fb612aef161c566b88928fdb7ac8c804c47c734039ced793338f7618b&' className='hyperlink' /></a> </span>
+                            <span style={{ fontSize: '2.2rem', fontFamily:'serif'}}> Transfer History <a href='/career' ><img height={29} width={29} src='https://cdn.discordapp.com/attachments/707687832239603863/1183456013748293803/resize-64.png?ex=6588664d&is=6575f14d&hm=7871078fb612aef161c566b88928fdb7ac8c804c47c734039ced793338f7618b&' /></a> </span>
                         </div>
                         <div className='whiteBoxTransferHist'>
                             <img height={30} width={25} src='https://cdn.discordapp.com/attachments/707687832239603863/1174751638746046544/image.png?ex=6568bbb8&is=655646b8&hm=753884d5225298a7a46b3699983abce87cd67ddb7514c14fadda144a111032e0&'/><span style={{ fontSize: 22, paddingLeft: 15 }}> Andorinha </span>
