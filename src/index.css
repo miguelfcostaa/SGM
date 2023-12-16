@@ -311,7 +311,7 @@ code {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
   margin-top: 50px;
 }
 
@@ -332,6 +332,12 @@ code {
   position: absolute;
   top: 270px;
   left: 925px;
+}
+
+.logoJuventus {
+  position: absolute;
+  top: 270px;
+  left: 1000px;
 }
 
 .chooseCompetitionBtn {
@@ -481,3 +487,31 @@ code {
   left: 400px;
 }
 
+.photoIDcenter {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+
+.btnDownload {
+  margin-top: 50px;
+  margin-left: 800px;
+}
+
+.btnGetLink {
+  margin-top: 50px;
+  margin-left: 50px
+}
+
+.logoPortugal {
+  position: absolute;
+  right: 340px;
+  top: 180px;
+}
+
+.detailsInternational{
+  position: absolute;
+  top: 500px;
+  left: 150px;
+}

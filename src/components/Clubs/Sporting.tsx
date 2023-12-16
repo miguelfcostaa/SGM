@@ -8,9 +8,9 @@ const Sporting = () => {
         <>
             <NavBar />
             <div style={{ display: 'flex' }}>
-                <img width={1100} height={846} src='https://cdn.discordapp.com/attachments/525052167007240224/1185266694453743656/2bedc9496d8fb450010a9bc8b6622428.jpg?ex=658efca1&is=657c87a1&hm=2f972db771daaad0fa31039eafdaaeb4b3cfb4ef27b7b6fd2728d78d22439ac7&' />
+                <img width={1100} height={846} src='https://www.mktesportivo.com/wp-content/uploads/2018/09/germany-only-cristiano-ronaldo-juventus-turin_91qwx9v5oipp1b6lem1kn12y8_B0DFEE5D-49CF-4E40-83FC-8895FC77F1F4.jpg' />
 
-                <span style={{ fontSize: '2.8rem', fontFamily:'serif', marginLeft: 280, paddingTop: 50 }}> Sporting Stats </span>
+                <span style={{ fontSize: '2.8rem', fontFamily:'serif', marginLeft: 320, paddingTop: 50 }}> Sporting Stats </span>
             </div>
             
             <div className='logoRealMadrid'>

@@ -29,6 +29,10 @@ import { Man } from '@mui/icons-material';
 import ManUnitedChampions from './components/Clubs/ManUnitedChampions';
 import Sporting from './components/Clubs/Sporting';
 import SportingLigaPT from './components/Clubs/SportingLigaPT';
+import Juventus from './components/Clubs/Juventus';
+import JuventusChampions from './components/Clubs/JuventusChampions';
+import JuventusSerieA from './components/Clubs/JuventusSerieA';
+import PhotoID from './components/PhotoID';
 
 const router = createBrowserRouter([
   {
@@ -81,12 +85,28 @@ const router = createBrowserRouter([
     element: <SportingLigaPT />,
   },
   {
+    path: '/club-career/juventus',
+    element: <Juventus />,
+  },
+  {
+    path: '/club-career/juventus/serie-a',
+    element: <JuventusSerieA />,
+  },
+  {
+    path: '/club-career/juventus/champions',
+    element: <JuventusChampions />,
+  },
+  {
     path: "/video",
     element: <Video />,
   },
   {
     path: "/photo",
     element: <Photo />,
+  },
+  {
+    path: "/photo/:id",
+    element: <PhotoID />,
   },
   {
     path: "/timeline1",
