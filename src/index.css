@@ -407,6 +407,15 @@ code {
   position: absolute;
 }
 
+.line-top {
+  top: 73px;
+  left: 348px;
+  width: 15px;
+  height: 45%;
+  background-color: white;
+  position: absolute;
+}
+
 .line-full {
   top: 74px;
   left: 348px;

@@ -21,6 +21,10 @@ import Timeline7 from './components/Timeline7';
 import Timeline8 from './components/Timeline8';
 import Timeline9 from './components/Timeline9';
 import Timeline10 from './components/Timeline10';
+import Timeline11 from './components/Timeline11';
+import Timeline12 from './components/Timeline12';
+import Timeline13 from './components/Timeline13';
+import Timeline14 from './components/Timeline14';
 import ClubCareer from './components/ClubCareer';
 import RealMadrid from './components/Clubs/RealMadrid';
 import RealMadridChampions from './components/Clubs/RealMadridChampions';
@@ -159,6 +163,22 @@ const router = createBrowserRouter([
   {
     path: "/timeline10",
     element : <Timeline10 />,
+  },
+  {
+    path: "/timeline11",
+    element : <Timeline11 />,
+  },
+  {
+    path: "/timeline12",
+    element : <Timeline12 />,
+  },
+  {
+    path: "/timeline13",
+    element : <Timeline13 />,
+  },
+  {
+    path: "/timeline14",
+    element : <Timeline14 />,
   }
 ]);
 
