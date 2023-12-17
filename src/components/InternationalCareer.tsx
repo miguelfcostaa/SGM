@@ -15,11 +15,11 @@ const InternationalCareer = () => {
             </div> 
 
             <div className='logoPortugal'>
-                <img height={200} width={150} src='https://upload.wikimedia.org/wikipedia/pt/7/75/Portugal_FPF.png' />
+                <a href='/Portugalstats'><img height={200} width={150} src='https://upload.wikimedia.org/wikipedia/pt/7/75/Portugal_FPF.png' /></a>
             </div>
 
             <div className='detailsInternational'>
-                <img height={300} width={1600} src='https://cdn.discordapp.com/attachments/525052167007240224/1185624822500311040/image.png?ex=65904a29&is=657dd529&hm=d3abf234537b102181937ca426abb114cd08056fa9a88547eddd5d4a0db31796&' />
+                <img height={300} width={1600} src='https://cdn.discordapp.com/attachments/525052167007240224/1185983062304112771/image.png?ex=659197cc&is=657f22cc&hm=d2cce7a31d536313855f84de951a7d0d1decb96e3c6f58ac36ff2a4540b9d314&' />
             </div>
 
         </html>

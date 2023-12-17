@@ -11,6 +11,7 @@ import Biography from './components/Biography';
 import InternationalCareer from './components/InternationalCareer';
 import Photo from './components/Photo';
 import Video from './components/Video';
+import VideoPratices from './components/VideoPratices';
 import Timeline1 from './components/Timeline1';
 import Timeline2 from './components/Timeline2';
 import Timeline3 from './components/Timeline3';
@@ -41,8 +42,11 @@ import JuventusSerieA from './components/Clubs/JuventusSerieA';
 import PhotoID from './components/PhotoID';
 import PhotoID1 from './components/PhotoID1';
 import VideoPlay from './components/VideoPlay';
+import VideoPlayPratices from './components/VideoPlayPratices';
 import AlNassr from './components/Clubs/AlNassr';
 import AlNassrSaudi from './components/Clubs/AlNassrSaudi';
+import PortugalStats from './components/Portugalstats';
+import PortugalStatsEuroCup from './components/PortugalstatsEurocup';
 
 const router = createBrowserRouter([
   {
@@ -115,12 +119,28 @@ const router = createBrowserRouter([
     element: <AlNassrSaudi />,
   },
   {
+    path: '/portugalstats',
+    element: <PortugalStats />,
+  },
+  {
+    path: '/portugalstatseurocup',
+    element: <PortugalStatsEuroCup />,
+  },
+  {
     path: "/video",
     element: <Video />,
   },
   {
+    path: "/videopratices",
+    element: <VideoPratices />,
+  },
+  {
     path: "/video/play",
     element: <VideoPlay />,
+  },
+  {
+    path: "/video/playpratices",
+    element: <VideoPlayPratices />,
   },
   {
     path: "/photo",
@@ -135,7 +155,7 @@ const router = createBrowserRouter([
     element: <PhotoID1 />,
   },
   {
-    path: "/timeline1",
+    path: "/timeline",
     element: <Timeline1 />,
   },
   {

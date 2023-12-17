@@ -1,11 +1,18 @@
 import React from 'react';
 import NavBar from './NavBar';
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 
 const Video = () => {
     return (
         <div style={{ background: '#414141', position: 'absolute', height: '100%', width: '100%' }}>
             <NavBar />
-            
+            <div className='filtro-videos'>
+                <DropdownButton id="dropdown-basic-button" title="Best Moments" size='lg' variant="secondary">
+                    <Dropdown.Item href="/video">Best Moments</Dropdown.Item>
+                    <Dropdown.Item href="/videopratices">Pratices</Dropdown.Item>
+                </DropdownButton>
+            </div>
             <div className='flexVideos'>
                 <div className='row'>
                     <div className='col-4'>

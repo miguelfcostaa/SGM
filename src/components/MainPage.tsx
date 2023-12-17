@@ -29,7 +29,7 @@ const MainPage = () => {
         type="button"
         className="mainPageBtn"
         value="Learn More"
-        onClick={() => window.location.href = "/timeline1"}
+        onClick={() => window.location.href = "/timeline"}
       />
     </div>
   );

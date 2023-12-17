@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import YouTube from 'react-youtube';
 import NavBar from './NavBar';
 
-const VideoPlay: React.FC = () => {
+const VideoPlayPratices: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const opts = {
@@ -29,7 +29,7 @@ const VideoPlay: React.FC = () => {
 
       <div style={{ textAlign: 'center', marginTop: 100 }}>
         <YouTube
-           videoId="nAyEmVKY6ag"
+           videoId="wE1aY58YfEY"
            opts={opts}
            onReady={onReady}
            onPlay={() => setIsPlaying(true)}
@@ -40,4 +40,4 @@ const VideoPlay: React.FC = () => {
   );
 };
 
-export default VideoPlay;
+export default VideoPlayPratices;
