@@ -340,6 +340,12 @@ code {
   left: 1000px;
 }
 
+.logoAlNassr {
+  position: absolute;
+  top: 300px;
+  left: 985px;
+}
+
 .chooseCompetitionBtn {
   position: absolute;
   right: 280px;

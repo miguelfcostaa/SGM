@@ -41,6 +41,8 @@ import JuventusSerieA from './components/Clubs/JuventusSerieA';
 import PhotoID from './components/PhotoID';
 import PhotoID1 from './components/PhotoID1';
 import VideoPlay from './components/VideoPlay';
+import AlNassr from './components/Clubs/AlNassr';
+import AlNassrSaudi from './components/Clubs/AlNassrSaudi';
 
 const router = createBrowserRouter([
   {
@@ -103,6 +105,14 @@ const router = createBrowserRouter([
   {
     path: '/club-career/juventus/champions',
     element: <JuventusChampions />,
+  },
+  {
+    path: '/club-career/al-nassr',
+    element: <AlNassr />,
+  },
+  {
+    path: '/club-career/al-nassr/saudi-pro-league',
+    element: <AlNassrSaudi />,
   },
   {
     path: "/video",

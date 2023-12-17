@@ -11,8 +11,8 @@ const ClubCareer = () => {
             <img className='imgTranferHistory' height={400} src='https://cdn.discordapp.com/attachments/707687832239603863/1175105574040510474/image.png?ex=656a0559&is=65579059&hm=9238127684029d25ad9ae5f97059fcd0c8b8575dab7a1bcb3157448f15775e03&'/>
             
             
-            <a href='/club-career/andorinha' ><img className='imgAndorinha' src='https://cdn.discordapp.com/attachments/707687832239603863/1174751638746046544/image.png?ex=6568bbb8&is=655646b8&hm=753884d5225298a7a46b3699983abce87cd67ddb7514c14fadda144a111032e0&'/></a>
-            <a href='/club-career/nacional' ><img className='imgNacional' src='https://cdn.discordapp.com/attachments/707687832239603863/1174751857705496716/image.png?ex=6568bbec&is=655646ec&hm=c4acb50a18c85232f40bf22badc87ecf3e6c77b774321428bc89b39da1a119b1&'/></a>
+            <img className='imgAndorinha' src='https://cdn.discordapp.com/attachments/707687832239603863/1174751638746046544/image.png?ex=6568bbb8&is=655646b8&hm=753884d5225298a7a46b3699983abce87cd67ddb7514c14fadda144a111032e0&'/>
+            <img className='imgNacional' src='https://cdn.discordapp.com/attachments/707687832239603863/1174751857705496716/image.png?ex=6568bbec&is=655646ec&hm=c4acb50a18c85232f40bf22badc87ecf3e6c77b774321428bc89b39da1a119b1&'/>
             <a href='/club-career/sporting' ><img className='imgSporting'  src='https://cdn.discordapp.com/attachments/707687832239603863/1174751909236703354/image.png?ex=6568bbf8&is=655646f8&hm=e6f75bde1f81ff84fec9a729e2b7bccae57975afb5b57770e8011a9367ebbf0b&'/></a>
             <a href='/club-career/manUnited' ><img className='imgManUnited' src='https://cdn.discordapp.com/attachments/707687832239603863/1175102886116589568/image.png?ex=656a02d8&is=65578dd8&hm=dba795eb5269ef215f31ebb5474e1e908ca22cfe58f578d9333097c7b7c2e6be&' /></a>
             <a href='/club-career/realMadrid' ><img className='imgRealMadrid' src='https://cdn.discordapp.com/attachments/707687832239603863/1175103710414782494/image.png?ex=656a039c&is=65578e9c&hm=4956999a0dad65f45b4e2509cb10bc3347fbed7ccbc50db3153562065feba05b&' /></a>
