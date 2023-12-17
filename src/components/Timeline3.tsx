@@ -13,6 +13,10 @@ const Timeline3 = () => {
                     src="https://cdn.discordapp.com/attachments/525052167007240224/1184496603613106246/ronaldo_manchester_united_2003.jpg?ex=658c2f6d&is=6579ba6d&hm=80eedf570f6bc83a0eebe882955823b9ca8948e6e87503e3c796dfddc0441953&"
                 ></img>
             </Box>
+            <img
+            className="seta-cima"
+            src="https://cdn.discordapp.com/attachments/525052167007240224/1185974286897401896/3081888.png?ex=65918fa0&is=657f1aa0&hm=4fbc9e3462b5fc57b6ff790fef2f686e393bb2307c56a4202fa986ec374545f1&"
+            ></img>
             <div>
                 <button className="invisible-button" onClick={() => window.location.href = "/timeline2"}></button>
             </div>
@@ -35,6 +39,10 @@ const Timeline3 = () => {
             <span className="datatimeline2">
                 2003
             </span>
+            <img
+            className="seta-baixo"
+            src="https://cdn.discordapp.com/attachments/525052167007240224/1185974286897401896/3081888.png?ex=65918fa0&is=657f1aa0&hm=4fbc9e3462b5fc57b6ff790fef2f686e393bb2307c56a4202fa986ec374545f1&"
+            ></img>
             <div>
                 <button className="invisible-button-bottom" onClick={() => window.location.href = "/timeline4"}></button>
             </div>

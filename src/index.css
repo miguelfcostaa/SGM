@@ -535,11 +535,27 @@ code {
   border-radius: 15px;
 }
 
-
 .flexVideos {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   gap: 50px;
   margin-top: 70px;
+}
+
+.seta-cima{
+  top: 90px;
+  left: 900px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  transform: rotate(180deg);
+}
+
+.seta-baixo{
+  top: 815px;
+  left: 900px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
 }

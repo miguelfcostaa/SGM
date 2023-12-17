@@ -13,6 +13,10 @@ const Timeline13 = () => {
                 src="https://cdn.discordapp.com/attachments/525052167007240224/1185639196598218872/Ronaldo_United_2021.jpg?ex=6590578c&is=657de28c&hm=83f09fdf6b9508b8c9259a37bc316894273ac31f9f2a2bb8a929518af5ab9e47&"
                 ></img>
             </Box>
+            <img
+            className="seta-cima"
+            src="https://cdn.discordapp.com/attachments/525052167007240224/1185974286897401896/3081888.png?ex=65918fa0&is=657f1aa0&hm=4fbc9e3462b5fc57b6ff790fef2f686e393bb2307c56a4202fa986ec374545f1&"
+            ></img>
             <div>
                 <button className="invisible-button" onClick={() => window.location.href = "/timeline12"}></button>
             </div>
@@ -42,6 +46,10 @@ const Timeline13 = () => {
                    <center> - </center>
                    2022
             </span>
+            <img
+            className="seta-baixo"
+            src="https://cdn.discordapp.com/attachments/525052167007240224/1185974286897401896/3081888.png?ex=65918fa0&is=657f1aa0&hm=4fbc9e3462b5fc57b6ff790fef2f686e393bb2307c56a4202fa986ec374545f1&"
+            ></img>
             <div>
                 <button className="invisible-button-bottom" onClick={() => window.location.href = "/timeline14"}></button>
             </div>

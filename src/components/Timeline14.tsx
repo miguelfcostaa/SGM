@@ -13,6 +13,10 @@ const Timeline14 = () => {
                 src="https://cdn.discordapp.com/attachments/525052167007240224/1185641145745813544/cristiano_ronaldo_al_nassr.jpeg?ex=6590595d&is=657de45d&hm=dd62abfdf5da654ab9901ffa58fc478b834b044416ac63c9b146b29baab2b3f2&"
                 ></img>
             </Box>
+            <img
+            className="seta-cima"
+            src="https://cdn.discordapp.com/attachments/525052167007240224/1185974286897401896/3081888.png?ex=65918fa0&is=657f1aa0&hm=4fbc9e3462b5fc57b6ff790fef2f686e393bb2307c56a4202fa986ec374545f1&"
+            ></img>
             <div>
                 <button className="invisible-button" onClick={() => window.location.href = "/timeline13"}></button>
             </div>

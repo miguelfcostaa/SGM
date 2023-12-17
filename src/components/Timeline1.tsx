@@ -18,6 +18,7 @@ const Timeline1 = () => {
             </span>
             <div className="ball"></div>
             <div className="line"></div>
+            
             <div className="textotimeline1">
                 <div> 
                     Cristiano Ronaldo, born in the city of Funchal on the island of Madeira,
@@ -38,6 +39,10 @@ const Timeline1 = () => {
                    <center> - </center>
                    1997
             </span>
+            <img
+            className="seta-baixo"
+            src="https://cdn.discordapp.com/attachments/525052167007240224/1185974286897401896/3081888.png?ex=65918fa0&is=657f1aa0&hm=4fbc9e3462b5fc57b6ff790fef2f686e393bb2307c56a4202fa986ec374545f1&"
+            ></img>
             <div>
                 <button className="invisible-button-bottom" onClick={() => window.location.href = "/timeline2"}></button>
             </div>
