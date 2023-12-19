@@ -8,7 +8,7 @@ const Video = () => {
         <div style={{ background: '#414141', position: 'absolute', height: '100%', width: '100%' }}>
             <NavBar />
             <div className='filtro-videos'>
-                <DropdownButton id="dropdown-basic-button" title="Best Moments" size='lg' variant="secondary">
+                <DropdownButton id="dropdown-basic-button" title="Select Category" size='lg' variant="secondary">
                     <Dropdown.Item href="/video">Best Moments</Dropdown.Item>
                     <Dropdown.Item href="/videopratices">Pratices</Dropdown.Item>
                 </DropdownButton>
