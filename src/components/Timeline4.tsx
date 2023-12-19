@@ -18,7 +18,7 @@ const Timeline4 = () => {
             src="https://cdn.discordapp.com/attachments/525052167007240224/1185974286897401896/3081888.png?ex=65918fa0&is=657f1aa0&hm=4fbc9e3462b5fc57b6ff790fef2f686e393bb2307c56a4202fa986ec374545f1&"
             ></img>
             <div>
-                <button className="invisible-button" onClick={() => window.location.href = "/timeline2"}></button>
+                <button className="invisible-button" onClick={() => window.location.href = "/timeline3"}></button>
             </div>
             <div className="line-full"></div>
             <div className="ball"></div>
